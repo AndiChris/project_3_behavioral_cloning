@@ -33,7 +33,7 @@ My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network 
-* writeup.md_summarizing the results
+* writeup.md summarizing the results
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
@@ -87,9 +87,9 @@ The final model architecture (model.py lines 70-80) consisted of a convolution n
 2) Pre-processing layer to cut-out everything but the road which is of interest. Cut 25px from bottom and 65 from the top.
 3) First layer of the CNN. A convolutional layer with filter-depth of 6 and filter-width/height of 5x5. The stride parameter was set to 5 and  for the activation a Relu-function was choosen. 
 4) MaxPooling layer with default parameters of 2x2 pooling-size, 2 as stride and valid padding.
-5) Same as 3)
-6) Same as 4)
-7) Flatten Output of 6)
+5) Same as 3.
+6) Same as 4.
+7) Flatten Output of 6.
 8) Fully connected layer with output 120
 9) Fully connected layer with output 84
 10) Fully connected layer with output 1
